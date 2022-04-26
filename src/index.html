@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script defer src="./script.js"></script>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <div class="report-container">
+          <div class="report-top">
+            <div class="report-top-inner-wrapper">
+              <div class="report-top-circle">
+                <img src="../images/image-jeremy.png" alt="Jeremy Robson" />
+              </div>
+
+              <div class="report-jeremy">
+                <span class="report-jeremy-span">Report for</span>
+                <h1 class="report-jeremy-head">Jeremy Robson</h1>
+              </div>
+            </div>
+          </div>
+          <div class="report-bottom">
+            <ul class="report-bottom-list">
+              <li><a href="#" class="active">Daily</a></li>
+              <li><a href="#">Weekly</a></li>
+              <li><a href="#">Monthly</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="work">
+          <template data-name="Work" class="inner-container">
+            <div class="inner-wrapper">
+              <div class="title-svg-container">
+                <h3 class="title">Work</h3>
+                <svg
+                  class="svg"
+                  width="21"
+                  height="5"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="time-span-container">
+                <h1 class="time">32hrs</h1>
+                <span>Last Day - 36hrs</span>
+              </div>
+            </div>
+          </template>
+        </div>
+        <div class="play">
+          <template data-name="Play" class="inner-container">
+            <div class="inner-wrapper">
+              <div class="title-svg-container">
+                <h3 class="title">Work</h3>
+                <svg
+                  class="svg"
+                  width="21"
+                  height="5"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="time-span-container">
+                <h1 class="time">32hrs</h1>
+                <span>Last Day - 36hrs</span>
+              </div>
+            </div>
+          </template>
+        </div>
+        <div class="study">
+          <template data-name="Study" class="inner-container">
+            <div class="inner-wrapper">
+              <div class="title-svg-container">
+                <h3 class="title">Work</h3>
+                <svg
+                  class="svg"
+                  width="21"
+                  height="5"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="time-span-container">
+                <h1 class="time">32hrs</h1>
+                <span>Last Day - 36hrs</span>
+              </div>
+            </div>
+          </template>
+        </div>
+        <div class="exercise">
+          <template data-name="Exercise" class="inner-container">
+            <div class="inner-wrapper">
+              <div class="title-svg-container">
+                <h3 class="title">Work</h3>
+                <svg
+                  class="svg"
+                  width="21"
+                  height="5"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="time-span-container">
+                <h1 class="time">32hrs</h1>
+                <span>Last Day - 36hrs</span>
+              </div>
+            </div>
+          </template>
+        </div>
+        <div class="social">
+          <template data-name="Social" class="inner-container">
+            <div class="inner-wrapper">
+              <div class="title-svg-container">
+                <h3 class="title">Work</h3>
+                <svg
+                  class="svg"
+                  width="21"
+                  height="5"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="time-span-container">
+                <h1 class="time">32hrs</h1>
+                <span>Last Day - 36hrs</span>
+              </div>
+            </div>
+          </template>
+        </div>
+        <div class="self-care">
+          <template data-name="Self Care" class="inner-container">
+            <div class="inner-wrapper">
+              <div class="title-svg-container">
+                <h3 class="title">Work</h3>
+                <svg
+                  class="svg"
+                  width="21"
+                  height="5"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="time-span-container">
+                <h1 class="time">32hrs</h1>
+                <span>Last Day - 36hrs</span>
+              </div>
+            </div>
+          </template>
+        </div>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a
+        class="link"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Reuben</a>.
+    </div>
+  </body>
+</html>
